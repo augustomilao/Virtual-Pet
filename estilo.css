@@ -1,0 +1,12 @@
+.nome{
+    background-color: #000000;
+    padding: 12px 0;
+    text-align: center;
+}
+.pet{
+    border: black solid;
+}
+#imgbloco{
+    text-align: center;
+    padding-top: 10px;
+}
