@@ -11,7 +11,7 @@ var social = 100;
 	Essa função tem a função de atualizar as informações na tela
 	de tanto em tanto tempo
 */
-function Loop(time = 2){
+function Loop(time = 1){
 
   var total = fome + higiene + sono + diversao + social;
 
@@ -68,7 +68,7 @@ function Loop(time = 2){
 	Essa função é responsável por começar e chamar o temporizador da função LOOP
 */
 function Start(){
-  var temporizador = setInterval(Loop, 1000);
+  var temporizador = setInterval(Loop, 5000);
 }
 
 /*

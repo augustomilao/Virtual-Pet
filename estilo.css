@@ -5,12 +5,31 @@
 }
 .pet{
     border: black solid;
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+
 }
 #imgbloco{
+    padding-top: 30px; 
     text-align: center;
-    padding-top: 10px;
 }
 
-#botao{
-    padding: 50px;
-}
+.botao{
+    padding: 15px 0px;
+    width: 100%;
+    background: #99cc00;
+    color: #4d6600;
+    text-align: center;
+    display: inline-block;
+  }
+    .botao:hover{
+    background: #86b300;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+  }
+  #mensagem{
+      text-align: center;
+  }
