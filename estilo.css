@@ -16,20 +16,33 @@
 }
 
 .botao{
-    padding: 15px 0px;
-    width: 100%;
-    background: #99cc00;
-    color: #4d6600;
-    text-align: center;
-    display: inline-block;
-  }
-    .botao:hover{
-    background: #86b300;
+    padding: 6px 50px;
+    background: #777;
+    color: #f2f2f2;
+    border-radius: 4px;
     cursor: pointer;
+    width: 100%;
   }
-  a{
-    text-decoration: none;
+  
+  .botao:hover{
+    background: #222;
   }
-  #mensagem{
-      text-align: center;
+  
+  .botao:active{
+    background: #777;
+  }
+  
+  #botao{
+      text-align: left;
+  }
+
+  .barra{
+    padding: 8px 50px;
+    background: #777;
+    color: #f2f2f2;
+    border-radius: 4px;
+  }
+
+  .lado{
+      width:100px;
   }
