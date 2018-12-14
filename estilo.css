@@ -11,6 +11,34 @@
     padding-top: 10px;
 }
 
-#botao{
-    padding: 50px;
-}
+.botao{
+    padding: 6px 50px;
+    background: #777;
+    color: #f2f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .botao:hover{
+    background: #222;
+  }
+  
+  .botao:active{
+    background: #777;
+  }
+  
+  #botao{
+      text-align: left;
+  }
+
+  .barra{
+    padding: 8px 50px;
+    background: #777;
+    color: #f2f2f2;
+    border-radius: 4px;
+  }
+
+  .lado{
+      width:100px;
+  }
