@@ -5,6 +5,12 @@
     background-color: #000000;
     padding: 12px 0;
     text-align: center;
+    font-size: 30px;
+}
+.nome2{
+    padding: 12px 0;
+    text-align: center;
+    font-size: 30px;
 }
 .pet{
     border: black solid;
