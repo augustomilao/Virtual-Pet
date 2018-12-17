@@ -75,7 +75,8 @@ function Start(){
 	Essa função é para recuperar a fome
 */
 function Comer(){
-  fome = 100;
+  fome = (fome + 10);
+if  (fome >100) {fome = 100}
   document.getElementById('fome').innerHTML = fome + '%';
   document.getElementById('fome').style.width = fome + 'px';
 }
@@ -84,7 +85,8 @@ function Comer(){
 	Essa função é para recuperar a higiene
 */
 function Banho(){
-  higiene = 100;
+  banho = (banho + 10);
+if  (banho >100) {banho = 100}
   document.getElementById('higiene').innerHTML = higiene + '%';
   document.getElementById('higiene').style.width = higiene + 'px';
 }
@@ -93,7 +95,8 @@ function Banho(){
 	Essa função é para recuperar o sono
 */
 function Dormir(){
-  sono = 100;
+  dormir = (dormir + 10);
+if  (dormir >100) {dormir = 100}
   document.getElementById('sono').innerHTML = sono + '%';
   document.getElementById('sono').style.width = sono + 'px';
 }
@@ -102,7 +105,8 @@ function Dormir(){
 	Essa função é para recuperar a diversão
 */
 function Brincar(){
-  diversao = 100;
+  brincar = (brincar + 10);
+if  (brincar >100) {brincar = 100}
   document.getElementById('diversao').innerHTML = diversao + '%';
   document.getElementById('diversao').style.width = diversao + 'px';
 }
@@ -111,7 +115,8 @@ function Brincar(){
 	Essa função é para recuperar o social
 */
 function Conversar(){
-  social = 100;
+  conversar = (conversar + 10);
+if  (conversar >100) {conversar = 100}
   document.getElementById('social').innerHTML = social + '%';
   document.getElementById('social').style.width = social + 'px';
 }
