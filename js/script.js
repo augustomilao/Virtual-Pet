@@ -6,6 +6,9 @@ var higiene = 100;
 var sono = 100;
 var diversao = 100;
 var social = 100;
+var tempo = 0;
+
+
 
 /*
 	Essa função tem a função de atualizar as informações na tela
@@ -14,6 +17,8 @@ var social = 100;
 function Loop(time = 1){
 
   var total = fome + higiene + sono + diversao + social;
+  var tempo=tempo + 1;
+  document.getElementById('tempo').innerHTML = 'Seu pet está vivo a ' + tempo + ' dias' ;
 
   /*
 	 Se algum dos atributos chegar a 0 nosso pet morre!
@@ -44,6 +49,7 @@ function Loop(time = 1){
   sono = sono - parseInt(time);
   diversao = diversao - parseInt(time);
   social = social - parseInt(time);
+  tempo = tempo + parseInt(time);
 
   /*
 	 Nessa parte nós controlamos a barra de status do pet
