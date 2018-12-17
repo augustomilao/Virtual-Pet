@@ -38,11 +38,11 @@ function Loop(time = 1){
   /*
 	 Nessa parte nós controlamos a barra de status do pet
   */
-  document.getElementById('fome').style.width = fome + 'px';
-  document.getElementById('higiene').style.width = higiene + 'px';
-  document.getElementById('sono').style.width = sono + 'px';
-  document.getElementById('diversao').style.width = diversao + 'px';
-  document.getElementById('social').style.width = social + 'px';
+  document.getElementById('fome').style.width = ((fome + 'px')/5);
+  document.getElementById('higiene').style.width = ((higiene + 'px')/5);
+  document.getElementById('sono').style.width = ((sono + 'px')/5);
+  document.getElementById('diversao').style.width = ((diversao + 'px')/5);
+  document.getElementById('social').style.width = ((social/5 + 'px')/5);
 
 
   /*

@@ -20,35 +20,37 @@
     padding-top: 30px; 
     text-align: center;
 }
-
 .botao{
     padding: 6px 50px;
-    background: #777;
+    background: rgba(199, 52, 52);
     color: #f2f2f2;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
+    display: inline-table;
   }
-  
   .botao:hover{
     background: #222;
   }
-  
   .botao:active{
-    background: #777;
-  }
-  
+    background: rgba(199, 52, 52);
+  }  
   #botao{
-      text-align: left;
+      display: grid;
   }
-
   .barra{
-    padding: 8px 50px;
-    background: #777;
+    padding: 4px 60px;
+    background: rgb(9, 112, 119);
     color: #f2f2f2;
     border-radius: 4px;
   }
-
-  .lado{
-      width:100px;
+  .meio{
+        display: inline-flex;
+        border: #000000 solid 2px;
+        padding: 50px;
+        overflow: hidden;
+        width: 1000px;
   }
+  body{
+      text-align: center;
+  }
+ 
