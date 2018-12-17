@@ -68,7 +68,7 @@ function Loop(time = 1){
 	Essa função é responsável por começar e chamar o temporizador da função LOOP
 */
 function Start(){
-  var temporizador = setInterval(Loop, 10000);
+  var temporizador = setInterval(Loop, 5000);
 }
 
 /*

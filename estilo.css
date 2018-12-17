@@ -1,3 +1,6 @@
+#body{
+    overflow: hidden;
+}
 .nome{
     background-color: #000000;
     padding: 12px 0;
@@ -46,3 +49,23 @@
   .lado{
       width:100px;
   }
+
+  #fome{
+      width:100%;
+  }
+
+  #higiene{
+    width:100%;
+}
+
+  #sono{
+    width:100%;
+}
+
+  #diversao{
+    width:100%;
+}
+
+  #social{
+    width:100%;
+}
